@@ -23,12 +23,12 @@
 ## Introduction
 ## Introducción
 
-Artisan is the command-line interface included with Laravel. It provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the `list` command:
+Artisan is the command-line interface included with Laravel. It provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the `list` command:  
 Artisan es la interfaz de línea de comandos incluida con Laravel. Proporciona una serie de útiles comandos que pueden ayudarle mientras construye su aplicación. Para ver una lista de todos los comandos Artisan disponibles, puede usar el comando `list`:
 
     php artisan list
 
-Every command also includes a "help" screen which displays and describes the command's available arguments and options. To view a help screen, precede the name of the command with `help`:
+Every command also includes a "help" screen which displays and describes the command's available arguments and options. To view a help screen, precede the name of the command with `help`:  
 Cada comando también incluye una pantalla de "ayuda" que muestra y describe los argumentos y opciones disponibles del comando. Para ver una pantalla de ayuda, preceda el nombre del comando con `help`:
 
     php artisan help migrate
@@ -36,7 +36,7 @@ Cada comando también incluye una pantalla de "ayuda" que muestra y describe los
 #### Laravel REPL
 #### Laravel REPL
 
-All Laravel applications include Tinker, a REPL powered by the [PsySH](https://github.com/bobthecow/psysh) package. Tinker allows you to interact with your entire Laravel application on the command line, including the Eloquent ORM, jobs, events, and more. To enter the Tinker environment, run the `tinker` Artisan command:
+All Laravel applications include Tinker, a REPL powered by the [PsySH](https://github.com/bobthecow/psysh) package. Tinker allows you to interact with your entire Laravel application on the command line, including the Eloquent ORM, jobs, events, and more. To enter the Tinker environment, run the `tinker` Artisan command:  
 Todas las aplicaciones de Laravel incluyen Tinker, un REPL impulsado por el paquete [PsySH] (https://github.com/bobthecow/psysh). Tinker te permite interactuar con toda tu aplicación Laravel en la línea de comandos, incluido el ORM Eloquent, trabajos, eventos y más. Para ingresar al entorno de Tinker, ejecuta el comando Artisan 'tinker`:
 
     php artisan tinker
@@ -45,14 +45,14 @@ Todas las aplicaciones de Laravel incluyen Tinker, un REPL impulsado por el paqu
 ## Writing Commands
 ## Escribiendo comandos
 
-In addition to the commands provided with Artisan, you may also build your own custom commands. Commands are typically stored in the `app/Console/Commands` directory; however, you are free to choose your own storage location as long as your commands can be loaded by Composer.
+In addition to the commands provided with Artisan, you may also build your own custom commands. Commands are typically stored in the `app/Console/Commands` directory; however, you are free to choose your own storage location as long as your commands can be loaded by Composer.  
 Además de los comandos provistos con Artisan, también puedes construir tus propios comandos personalizados. Los comandos se almacenan típicamente en el directorio `app/Console/Commands`; sin embargo, puede elegir tu propia ubicación de almacenamiento siempre que tus comandos puedan ser cargados por Composer.
 
 <a name="generating-commands"></a>
 ### Generating Commands
 ### Generación de comandos
 
-To create a new command, use the `make:command` Artisan command. This command will create a new command class in the `app/Console/Commands` directory. Don't worry if this directory does not exist in your application, since it will be created the first time you run the `make:command` Artisan command. The generated command will include the default set of properties and methods that are present on all commands:
+To create a new command, use the `make:command` Artisan command. This command will create a new command class in the `app/Console/Commands` directory. Don't worry if this directory does not exist in your application, since it will be created the first time you run the `make:command` Artisan command. The generated command will include the default set of properties and methods that are present on all commands:  
 Para crear un nuevo comando, use el comando Artisan `make:command`. Este comando creará una nueva clase de comando en el directorio `app/Console/Commands`. No se preocupe si este directorio no existe en su aplicación, ya que se creará la primera vez que ejecute el comando Artisan `make:command`. El comando generado incluirá el conjunto predeterminado de propiedades y métodos que están presentes en todos los comandos:
 
     php artisan make:command SendEmails
@@ -61,7 +61,7 @@ Para crear un nuevo comando, use el comando Artisan `make:command`. Este comando
 ### Command Structure
 ### Estructura de comando
 
-After generating your command, you should fill in the `signature` and `description` properties of the class, which will be used when displaying your command on the `list` screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.
+After generating your command, you should fill in the `signature` and `description` properties of the class, which will be used when displaying your command on the `list` screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.  
 Después de generar su comando, debe completar las propiedades `signature` y `description` de la clase, que se usarán al mostrar su comando en la pantalla `list`. Se llamará al método `handle` cuando se ejecute su comando. Puede colocar su lógica de comando en este método.
 
 > {tip} For greater code reuse, it is good practice to keep your console commands light and let them defer to application services to accomplish their tasks. In the example below, note that we inject a service class to do the "heavy lifting" of sending the e-mails.
