@@ -444,27 +444,16 @@ Si se encuentra en un bucle anidado, puede acceder a la variable `$loop` del buc
 La variable `$loop` también contiene una variedad de otras propiedades útiles:
 > > The `$loop` variable also contains a variety of other useful properties:
 
-Property  | Description
-------------- | -------------
-`$loop->index`  |  The index of the current loop iteration (starts at 0).
-`$loop->iteration`  |  The current loop iteration (starts at 1).
-`$loop->remaining`  |  The iterations remaining in the loop.
-`$loop->count`  |  The total number of items in the array being iterated.
-`$loop->first`  |  Whether this is the first iteration through the loop.
-`$loop->last`  |  Whether this is the last iteration through the loop.
-`$loop->depth`  |  The nesting level of the current loop.
-`$loop->parent`  |  When in a nested loop, the parent's loop variable.
-
-Property  | Description
-------------- | -------------
-`$loop->index`  |  El índice de la iteración del ciclo actual (comienza en 0).
-`$loop->iteration`  |  La iteración del bucle actual (comienza en 1).
-`$loop->remaining`  |  Las iteraciones restantes en el bucle.
-`$loop->count`  |  La cantidad total de elementos en la matriz que se itera.
-`$loop->first`  |  Si esta es la primera iteración a través del bucle.
-`$loop->last`  |  Si esta es la última iteración a través del bucle.
-`$loop->depth`  |  El nivel de anidamiento del bucle actual.
-`$loop->parent`  |  Cuando está en un bucle anidado, la variable de bucle del padre.
+Property  | Descripción | Description
+------------- | ------------- | -------------
+`$loop->index`  |  El índice de la iteración del ciclo actual (comienza en 0).  |  The index of the current loop iteration (starts at 0).
+`$loop->iteration`  |  La iteración del bucle actual (comienza en 1).  |  The current loop iteration (starts at 1).
+`$loop->remaining`  |  Las iteraciones restantes en el bucle.  |  The iterations remaining in the loop.
+`$loop->count`  |  La cantidad total de elementos en la matriz que se itera.  |  The total number of items in the array being iterated.
+`$loop->first`  |  Si esta es la primera iteración a través del bucle.  |  Whether this is the first iteration through the loop.
+`$loop->last`  |  Si esta es la última iteración a través del bucle.  |  Whether this is the last iteration through the loop.
+`$loop->depth`  |  El nivel de anidamiento del bucle actual.  |  The nesting level of the current loop.
+`$loop->parent`  |  Cuando está en un bucle anidado, la variable de bucle del padre.  |  When in a nested loop, the parent's loop variable.
 
 <a name="comments"></a>
 ### Comentarios : Comments
