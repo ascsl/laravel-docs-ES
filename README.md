@@ -1,4 +1,4 @@
-# laravel-docs-ES
+# laravel-docs-ES 5.7
 
 A pesar de que aún soy un novato en Laravel, me he permitido el atrevimiento de intentar traducir la documentacion oficial.
 
