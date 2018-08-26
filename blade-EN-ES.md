@@ -1,5 +1,4 @@
-# Plantillas Blade
-# Blade Templates
+# Plantillas Blade : Blade Templates
 
 - [Introduction](#introduction)
 - [Template Inheritance](#template-inheritance)
