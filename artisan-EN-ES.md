@@ -517,7 +517,8 @@ Si su comando define una opción que acepta un array, puede pasar un array de va
 #### Passing Boolean Values
 #### Pasando valores booleanos
 
-If you need to specify the value of an option that does not accept string values, such as the `--force` flag on the `migrate:refresh` command, you should pass `true` or `false`:
+Si necesita especificar el valor de una opción que no acepta valores de cadena, como el indicador `--force` en el comando `migrate:refresh`, debe pasar `true` o` false`:
+> > If you need to specify the value of an option that does not accept string values, such as the `--force` flag on the `migrate:refresh` command, you should pass `true` or `false`:
 
     $exitCode = Artisan::call('migrate:refresh', [
         '--force' => true,
