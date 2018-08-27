@@ -10,6 +10,8 @@ Para poder comprobar si la traducción es correcta, he decidido mantener los tex
 
 Los ejemplos se han dejado tal cual están en la documentación original, ya que considero que no es necesaria su traducción.
 
+Las palabras que hacen referencia a variables, metodos, propiedades, etc, tampoco se han traducido para mantener el literal con el que han de ser llamadas correctamente.
+
 Espero que os pueda ser de ayuda esta documentación.
 
 Esta documentación esta incompleta, y se irá completando durante las próximas semanas.
