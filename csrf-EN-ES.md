@@ -33,7 +33,7 @@ Al crear aplicaciones controladas por JavaScript, es conveniente que su bibliote
 <a name="csrf-excluding-uris"></a>
 ## Excluyendo las URIs de la protección CSRF : Excluding URIs From CSRF Protection
 
-En ocasiones, es posible que desee excluir un conjunto de URI de la protección CSRF. Por ejemplo, si está utilizando [Stripe] (https://stripe.com) para procesar pagos y está utilizando su sistema webhook, deberá excluir su ruta del manejador webhook Stripe de la protección CSRF ya que Stripe no sabrá qué token CSRF para enviar a tus rutas
+En ocasiones, es posible que desee excluir un conjunto de URI de la protección CSRF. Por ejemplo, si está utilizando [Stripe](https://stripe.com) para procesar pagos y está utilizando su sistema webhook, deberá excluir su ruta del manejador webhook Stripe de la protección CSRF ya que Stripe no sabrá qué token CSRF para enviar a tus rutas
 > > Sometimes you may wish to exclude a set of URIs from CSRF protection. For example, if you are using [Stripe](https://stripe.com) to process payments and are utilizing their webhook system, you will need to exclude your Stripe webhook handler route from CSRF protection since Stripe will not know what CSRF token to send to your routes.
 
 Normalmente, debe colocar este tipo de rutas fuera del grupo de middleware `web` que el `RouteServiceProvider` se aplica a todas las rutas en el archivo `routes/web.php`. Sin embargo, también puede excluir las rutas agregando sus URIs a la propiedad `$except` del middleware `VerifyCsrfToken`:
