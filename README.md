@@ -8,6 +8,8 @@ Se agradecera cualquier tipo de ayuda en la revisión de las traducciones.
 
 Para poder comprobar si la traducción es correcta, he decidido mantener los textos originales justo debajo de cada párrafo.
 
+Los ejemplos se han dejado tal cual están en la documentación original, ya que considero que no es necesaria su traducción.
+
 Espero que os pueda ser de ayuda esta documentación.
 
 Esta documentación esta incompleta, y se irá completando durante las próximas semanas.
