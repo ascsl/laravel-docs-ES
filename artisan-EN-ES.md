@@ -446,7 +446,7 @@ También puede registrar comandos manualmente al agregar su nombre de clase a la
 <a name="programmatically-executing-commands"></a>
 ## Ejecución programática de comandos : Programmatically Executing Commands
 
-En ocasiones, es posible que desee ejecutar un comando de Artisan fuera de la CLI. Por ejemplo, puede desear disparar un comando de Artisan de una ruta o controlador. Puede usar el método `call` en la fachada `Artisan` para lograr esto. El método `call` acepta el nombre o la clase del comando como primer argumento y una matriz de parámetros de comando como el segundo argumento. El código de salida será devuelto:
+En ocasiones, es posible que desee ejecutar un comando de Artisan fuera de la CLI. Por ejemplo, puede desear disparar un comando de Artisan de una ruta o controlador. Puede usar el método `call` en la fachada `Artisan` para lograr esto. El método `call` acepta el nombre o la clase del comando como primer argumento y un array de parámetros de comando como segundo argumento. El código de salida será devuelto:
 > > Sometimes you may wish to execute an Artisan command outside of the CLI. For example, you may wish to fire an Artisan command from a route or controller. You may use the `call` method on the `Artisan` facade to accomplish this. The `call` method accepts either the command's name or class as the first argument, and an array of command parameters as the second argument. The exit code will be returned:  
 
     Route::get('/foo', function () {
