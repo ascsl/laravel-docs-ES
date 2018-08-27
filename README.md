@@ -9,3 +9,10 @@ Se agradecera cualquier tipo de ayuda en la revisión de las traducciones.
 Para poder comprobar si la traducción es correcta, he decidido mantener los textos originales justo debajo de cada párrafo.
 
 Espero que os pueda ser de ayuda esta documentación.
+
+Esta documentación esta incompleta, y se irá completando durante las próximas semanas.
+
+Durante este periodo es posible que los documentos originales puedan haber sido modificados. Tratare de mantenerlos actualizados, pero no olvideis que la mejor documentación siempre es la oficial:
+
+https://github.com/laravel/docs/tree/5.7
+
