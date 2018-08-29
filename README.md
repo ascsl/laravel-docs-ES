@@ -21,9 +21,9 @@ Durante este periodo es posible que los documentos originales puedan haber sido 
 https://github.com/laravel/docs/tree/5.7
 
 Prologue
-> Release Notes
-> Upgrade Guide
-> Contribution Guide
+> Release Notes  
+> Upgrade Guide  
+> Contribution Guide  
 > API Documentation
 
 Getting Started
