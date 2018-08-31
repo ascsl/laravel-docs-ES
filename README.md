@@ -23,61 +23,59 @@ https://github.com/laravel/docs/tree/5.7
 Prologue
 > Release Notes  
 > Upgrade Guide  
-> Contribution Guide  
+> [Contribution Guide](/contributions-EN-ES.md)  
 > API Documentation
 
 Getting Started
 > Installation  
-> Configuration  
+> [Configuration](/configuration-EN-ES.md)  
 > Directory Structure  
 > Homestead  
 > Valet  
-> Deployment
+> [Deployment](/deployment-EN-ES.md)
 
 Architecture Concepts
 > Request Lifecycle  
 > Service Container  
 > Service Providers  
 > Facades  
-> Contracts
+> [Contracts](/contracts-EN-ES.md)
 
 The Basics
 > Routing  
 > Middleware  
-> CSRF Protection  
-> Controllers  
+> [CSRF Protection](/csrf-EN-ES.md)  
+> [Controllers](/controllers-EN-ES.md)  
 > Requests  
 > Responses  
 > Views  
 > URL Generation  
 > Session  
 > Validation  
-> Error Handling  
+> [Error Handling](/errors-EN-ES.md)  
 > Logging
 
 Frontend
-> Blade Templates  
+> [Blade Templates](/blade-EN-ES.md)  
 > Localization  
 > Frontend Scaffolding  
 > Compiling Assets
 
 Security
-> Authentication  
+> [Authentication](/authentication-EN-ES.md)  
 > API Authentication  
-> Authorization  
+> [Authorization](/authorization-EN-ES.md)  
 > Email Verification  
-> Encryption  
+> [Encryption](/encryption-EN-ES.md)  
 > Hashing  
 > Password Reset
 
-"/docs/{{version}}/container"
-
 Digging Deeper
 > [Artisan Console](/artisan-EN-ES.md)  
-> Broadcasting  
-> Cache  
-> Collections  
-> Events  
+> [Broadcasting](/broadcasting-EN-ES.md)  
+> [Cache](/cache-EN-ES.md)  
+> [Collections](/collections-EN-ES.md)  
+> [Events](/events-EN-ES.md)  
 > File Storage  
 > Helpers  
 > Mail  
@@ -107,12 +105,12 @@ Testing
 > HTTP Tests  
 > Console Tests  
 > Browser Tests  
-> Database  
+> [Database](/database-testing-EN-ES.md)  
 > Mocking
 
 Official Packages
 > Cashier  
-> Envoy  
+> [Envoy](/envoy-EN-ES.md)  
 > Horizon  
 > Passport  
 > Scout  
