@@ -70,8 +70,10 @@ Security
 > Hashing  
 > Password Reset
 
+"/docs/{{version}}/container"
+
 Digging Deeper
-> [Artisan Console](/laravel-docs-ES/{{version}}/artisan-EN-ES.md)  
+> [Artisan Console](/{{version}}/artisan-EN-ES)  
 > Broadcasting  
 > Cache  
 > Collections  
