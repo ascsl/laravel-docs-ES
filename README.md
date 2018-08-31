@@ -93,12 +93,12 @@ Database
 > Redis
 
 Eloquent ORM
-> Getting Started  
-> Relationships  
-> Collections  
-> Mutators  
-> API Resources  
-> Serialization
+> [Getting Started](/eloquent- EN-ES.md)  
+> [Relationships](/eloquent-relationships-EN-ES.md)  
+> [Collections](/eloquent-collections-EN-ES.md)  
+> [Mutators](/eloquent-mutators-EN-ES.md)  
+> [API Resources](/eloquent-resources-EN-ES.md)  
+> [Serialization](/eloquent-serialization-EN-ES.md)
 
 Testing
 > Getting Started  
