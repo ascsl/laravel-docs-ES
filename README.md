@@ -71,7 +71,7 @@ Security
 > Password Reset
 
 Digging Deeper
-> [Artisan Console](/laravel-docs-ES/blob/{{version}}/artisan-EN-ES.md)
+> [Artisan Console](/laravel-docs-ES/{{version}}/artisan-EN-ES.md)  
 > Broadcasting  
 > Cache  
 > Collections  
