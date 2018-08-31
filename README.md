@@ -73,7 +73,7 @@ Security
 "/docs/{{version}}/container"
 
 Digging Deeper
-> [Artisan Console](/artisan-EN-ES)  
+> [Artisan Console](/artisan-EN-ES.md)  
 > Broadcasting  
 > Cache  
 > Collections  
