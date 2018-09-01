@@ -2,6 +2,8 @@
 
 A pesar de que aún soy un novato en Laravel, me he permitido el atrevimiento de intentar traducir la documentacion oficial.
 
+Espero que pueda servir de ayuda a aquellos que tengan limitaciones con el idioma nativo de nuestro amigo Taylor Otwell. A mi personalmente, me esta ayudando mucho a entender todos los conceptos de Laravel, y cuanto más leo la documentación, más me doy cuenta de lo poco que se.
+
 Ya que estaba decidido a realizar esta tarea, he aprovechado para empezar con la nueva versión 5.7 y he tratado de hacer una traducción lo más literal posible, asumiendo el riesgo de que algunas frases puedan parecer carentes de sentido.
 
 Se agradecera cualquier tipo de ayuda en la revisión de las traducciones.
@@ -12,13 +14,13 @@ Los ejemplos se han dejado tal cual están en la documentación original, ya que
 
 Las palabras que hacen referencia a variables, metodos, propiedades, etc, tampoco se han traducido para mantener el literal con el que han de ser llamadas correctamente.
 
-Espero que os pueda ser de ayuda esta documentación.
-
 Esta documentación esta incompleta, y se irá completando durante las próximas semanas.
 
 Durante este periodo es posible que los documentos originales puedan haber sido modificados. Tratare de mantenerlos actualizados, pero no olvideis que la mejor documentación siempre es la oficial:
 
 https://github.com/laravel/docs/tree/5.7
+
+
 
 Prologue
 > Release Notes  
