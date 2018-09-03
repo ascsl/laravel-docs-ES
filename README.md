@@ -29,10 +29,10 @@ Prologue
 > API Documentation
 
 Getting Started
-> Installation  
+> [Installation](/installation-EN-ES.md)  
 > [Configuration](/configuration-EN-ES.md)  
 > Directory Structure  
-> Homestead  
+> [Homestead](/homestead-EN-ES.md)  
 > Valet  
 > [Deployment](/deployment-EN-ES.md)
 
@@ -60,7 +60,7 @@ The Basics
 Frontend
 > [Blade Templates](/blade-EN-ES.md)  
 > Localization  
-> Frontend Scaffolding  
+> [Frontend Scaffolding](/frontend-EN-ES.md)  
 > Compiling Assets
 
 Security
