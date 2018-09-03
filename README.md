@@ -78,21 +78,21 @@ Digging Deeper
 > [Cache](/cache-EN-ES.md)  
 > [Collections](/collections-EN-ES.md)  
 > [Events](/events-EN-ES.md)  
-> File Storage  
-> Helpers  
-> Mail  
-> Notifications  
-> Package Development  
+> [File Storage](/filesystem-EN-ES.md)  
+> [Helpers](/helpers-EN-ES.md)  
+> [Mail](/mail-EN-ES.md)  
+> [Notifications](/notifications-EN-ES.md)  
+> [Package Development](/packages-EN-ES.md)  
 > Queues  
 > Task Scheduling
 
 Database
-> Getting Started  
-> Query Builder  
-> Pagination  
-> Migrations  
-> Seeding  
-> Redis
+> [Getting Started](/database-EN-ES.md)  
+> [Query Builder]  
+> [Pagination](/pagination-EN-ES.md)  
+> [Migrations](/migrations-EN-ES.md)  
+> [Seeding]  
+> [Redis]  
 
 Eloquent ORM
 > [Getting Started](/eloquent- EN-ES.md)  
