@@ -23,37 +23,37 @@ https://github.com/laravel/docs/tree/5.7
 
 
 Prologue
-> Release Notes  
-> Upgrade Guide  
+> [Release Notes](/releases-EN-ES.md)  
+> [Upgrade Guide](/upgrade-EN-ES.md)  
 > [Contribution Guide](/contributions-EN-ES.md)  
 > API Documentation
 
 Getting Started
 > [Installation](/installation-EN-ES.md)  
 > [Configuration](/configuration-EN-ES.md)  
-> Directory Structure  
+> [Directory Structure](/structure-EN-ES.md)  
 > [Homestead](/homestead-EN-ES.md)  
-> Valet  
+> [Valet](/valet-EN-ES.md)  
 > [Deployment](/deployment-EN-ES.md)
 
 Architecture Concepts
-> Request Lifecycle  
-> Service Container  
-> Service Providers  
+> [Request Lifecycle](/lifecycle-EN-ES.md)  
+> [Service Container](/container-EN-ES.md)  
+> [Service Providers](/providers-EN-ES.md)  
 > [Facades](/facades-EN-ES.md)  
 > [Contracts](/contracts-EN-ES.md)  
 
 The Basics
-> Routing  
+> [Routing](/routing-EN-ES.md)  
 > [Middleware](/middleware-EN-ES.md)  
 > [CSRF Protection](/csrf-EN-ES.md)  
 > [Controllers](/controllers-EN-ES.md)  
-> Requests  
-> Responses  
-> Views  
+> [Requests](/request-EN-ES.md)  
+> [Responses](/responses-EN-ES.md)  
+> [Views](/views-EN-ES.md)  
 > URL Generation  
-> Session  
-> Validation  
+> [Session](/session-EN-ES.md)  
+> [Validation](/validation-EN-ES.md)  
 > [Error Handling](/errors-EN-ES.md)  
 > [Logging](/logging-EN-ES.md)  
 
@@ -83,16 +83,16 @@ Digging Deeper
 > [Mail](/mail-EN-ES.md)  
 > [Notifications](/notifications-EN-ES.md)  
 > [Package Development](/packages-EN-ES.md)  
-> Queues  
-> Task Scheduling
+> [Queues](/queues-EN-ES.md)  
+> [Task Scheduling](/scheduling-EN-ES.md)  
 
 Database
 > [Getting Started](/database-EN-ES.md)  
-> [Query Builder]  
+> [Query Builder](/queries-EN-ES.md)  
 > [Pagination](/pagination-EN-ES.md)  
 > [Migrations](/migrations-EN-ES.md)  
-> [Seeding]  
-> [Redis]  
+> [Seeding](/seeding-EN-ES.md)  
+> [Redis](/redis-EN-ES.md)  
 
 Eloquent ORM
 > [Getting Started](/eloquent-EN-ES.md)  
@@ -114,6 +114,6 @@ Official Packages
 > Cashier  
 > [Envoy](/envoy-EN-ES.md)  
 > [Horizon](/horizon-EN-ES.md)  
-> Passport  
-> Scout  
-> Socialite
+> [Passport](/passport-EN-ES.md)  
+> [Scout](/scout-EN-ES.md)  
+> [Socialite](/socialite-EN-ES.md)  
