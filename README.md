@@ -40,12 +40,12 @@ Architecture Concepts
 > Request Lifecycle  
 > Service Container  
 > Service Providers  
-> Facades  
-> [Contracts](/contracts-EN-ES.md)
+> [Facades](/facades-EN-ES.md)  
+> [Contracts](/contracts-EN-ES.md)  
 
 The Basics
 > Routing  
-> Middleware  
+> [Middleware](/middleware-EN-ES.md)  
 > [CSRF Protection](/csrf-EN-ES.md)  
 > [Controllers](/controllers-EN-ES.md)  
 > Requests  
@@ -55,7 +55,7 @@ The Basics
 > Session  
 > Validation  
 > [Error Handling](/errors-EN-ES.md)  
-> Logging
+> [Logging](/logging-EN-ES.md)  
 
 Frontend
 > [Blade Templates](/blade-EN-ES.md)  
@@ -69,8 +69,8 @@ Security
 > [Authorization](/authorization-EN-ES.md)  
 > Email Verification  
 > [Encryption](/encryption-EN-ES.md)  
-> Hashing  
-> Password Reset
+> [Hashing](/hashing-EN-ES.md)  
+> Password Reset  
 
 Digging Deeper
 > [Artisan Console](/artisan-EN-ES.md)  
@@ -108,12 +108,12 @@ Testing
 > Console Tests  
 > Browser Tests  
 > [Database](/database-testing-EN-ES.md)  
-> Mocking
+> [Mocking](/mocking-EN-ES.md)  
 
 Official Packages
 > Cashier  
 > [Envoy](/envoy-EN-ES.md)  
-> Horizon  
+> [Horizon](/horizon-EN-ES.md)  
 > Passport  
 > Scout  
 > Socialite
