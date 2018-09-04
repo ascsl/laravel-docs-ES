@@ -20,7 +20,7 @@ Durante este periodo es posible que los documentos originales puedan haber sido 
 
 https://github.com/laravel/docs/tree/5.7
 
-
+## Índice del contenido:
 
 Prologue
 > [Release Notes](/releases-EN-ES.md)  
