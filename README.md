@@ -61,7 +61,7 @@ Frontend
 > [Blade Templates](/blade-EN-ES.md)  
 > [Localization](/localization-EN-ES.md)  
 > [Frontend Scaffolding](/frontend-EN-ES.md)  
-> Compiling Assets
+> [Compiling Assets](/mix-EN-ES.md)  
 
 Security
 > [Authentication](/authentication-EN-ES.md)  
