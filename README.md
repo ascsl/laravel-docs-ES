@@ -51,7 +51,7 @@ The Basics
 > [Requests](/request-EN-ES.md)  
 > [Responses](/responses-EN-ES.md)  
 > [Views](/views-EN-ES.md)  
-> URL Generation  
+> [URL Generation](/urls-EN-ES.md)  
 > [Session](/session-EN-ES.md)  
 > [Validation](/validation-EN-ES.md)  
 > [Error Handling](/errors-EN-ES.md)  
@@ -59,7 +59,7 @@ The Basics
 
 Frontend
 > [Blade Templates](/blade-EN-ES.md)  
-> Localization  
+> [Localization](/localization-EN-ES.md)  
 > [Frontend Scaffolding](/frontend-EN-ES.md)  
 > Compiling Assets
 
@@ -70,7 +70,7 @@ Security
 > Email Verification  
 > [Encryption](/encryption-EN-ES.md)  
 > [Hashing](/hashing-EN-ES.md)  
-> Password Reset  
+> [Password Reset](/passwords-EN-ES.md)  
 
 Digging Deeper
 > [Artisan Console](/artisan-EN-ES.md)  
