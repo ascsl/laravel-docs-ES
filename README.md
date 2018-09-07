@@ -103,15 +103,15 @@ Eloquent ORM
 > [Serialization](/eloquent-serialization-EN-ES.md)
 
 Testing
-> Getting Started  
-> HTTP Tests  
-> Console Tests  
-> Browser Tests  
+> [Getting Started](/testing-EN-ES.md)  
+> [HTTP Tests](/http-tests-EN-ES.md)  
+> [Console Tests](/console-EN-ES.md)  
+> [Browser Tests](/dusk-EN-ES.md)  
 > [Database](/database-testing-EN-ES.md)  
 > [Mocking](/mocking-EN-ES.md)  
 
 Official Packages
-> Cashier  
+> [Cashier](/billing-EN-ES.md)  
 > [Envoy](/envoy-EN-ES.md)  
 > [Horizon](/horizon-EN-ES.md)  
 > [Passport](/passport-EN-ES.md)  
