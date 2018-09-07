@@ -65,7 +65,7 @@ Frontend
 
 Security
 > [Authentication](/authentication-EN-ES.md)  
-> API Authentication  
+> [API Authentication](/passport-EN-ES.md)  
 > [Authorization](/authorization-EN-ES.md)  
 > Email Verification  
 > [Encryption](/encryption-EN-ES.md)  
