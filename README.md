@@ -26,7 +26,7 @@ Prologue
 > [Release Notes](/releases-EN-ES.md)  
 > [Upgrade Guide](/upgrade-EN-ES.md)  
 > [Contribution Guide](/contributions-EN-ES.md)  
-> API Documentation
+> [API Documentation](/5.7-EN-ES.md)  
 
 Getting Started
 > [Installation](/installation-EN-ES.md)  
@@ -67,7 +67,7 @@ Security
 > [Authentication](/authentication-EN-ES.md)  
 > [API Authentication](/passport-EN-ES.md)  
 > [Authorization](/authorization-EN-ES.md)  
-> Email Verification  
+> [Email Verification](/verification-EN-ES.md)  
 > [Encryption](/encryption-EN-ES.md)  
 > [Hashing](/hashing-EN-ES.md)  
 > [Password Reset](/passwords-EN-ES.md)  
