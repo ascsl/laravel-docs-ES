@@ -63,7 +63,7 @@ Frontend
 > [Frontend Scaffolding](/frontend-EN-ES.md)  
 > [Compilando Assets](/mix-EN-ES.md)  
 
-Securidad
+Seguridad
 > [Autenticación](/authentication-EN-ES.md)  
 > [API de autenticación](/passport-EN-ES.md)  
 > [Autorización](/authorization-EN-ES.md)  
@@ -110,7 +110,7 @@ Pruebas
 > [Base de datos](/database-testing-EN-ES.md)  
 > [Simulaciones](/mocking-EN-ES.md)  
 
-Official Packages
+Paquetes oficiales
 > [Cashier](/billing-EN-ES.md)  
 > [Envoy](/envoy-EN-ES.md)  
 > [Horizon](/horizon-EN-ES.md)  
