@@ -7,13 +7,13 @@
 <a name="versioning-scheme"></a>
 ## Esquema de control de versiones : Versioning Scheme
 
-El esquema de control de versiones de Laravel mantiene la siguiente convención: `paradigm.major.minor`. Los lanzamientos principales del marco se lanzan cada seis meses (febrero y agosto), mientras que los lanzamientos de menor importancia se pueden lanzar tan a menudo como cada semana. Las versiones menores **nunca** deben contener cambios de última hora.
+El esquema de control de versiones de Laravel mantiene la siguiente convención: `paradigm.major.minor`. Los lanzamientos principales del framework se lanzan cada seis meses (febrero y agosto), mientras que los lanzamientos de menor importancia se pueden lanzar tan a menudo como cada semana. Las versiones menores **nunca** deben contener cambios de última hora.
 > > Laravel's versioning scheme maintains the following convention: `paradigm.major.minor`. Major framework releases are released every six months (February and August), while minor releases may be released as often as every week. Minor releases should **never** contain breaking changes.
 
-Al hacer referencia al marco de Laravel o sus componentes desde su aplicación o paquete, siempre debe usar una restricción de versión como `5.7.*`, Ya que las versiones principales de Laravel incluyen cambios de última hora. Sin embargo, nos esforzamos por garantizar siempre que pueda actualizar a una nueva versión principal en un día o menos.
+Al hacer referencia al framework de Laravel o sus componentes desde su aplicación o paquete, siempre debe usar una restricción de versión como `5.7.*`, Ya que las versiones principales de Laravel incluyen cambios de última hora. Sin embargo, nos esforzamos por garantizar siempre que pueda actualizar a una nueva versión principal en un día o menos.
 > > When referencing the Laravel framework or its components from your application or package, you should always use a version constraint such as `5.7.*`, since major releases of Laravel do include breaking changes. However, we strive to always ensure you may update to a new major release in one day or less.
 
-Las versiones cambiantes de Paradigm están separadas por muchos años y representan cambios fundamentales en la arquitectura y las convenciones del marco. Actualmente, no hay un lanzamiento de cambio de paradigma en desarrollo.
+Las versiones que cambian de Paradigma están separadas por varios años y representan cambios fundamentales en la arquitectura y las convenciones del framework. Actualmente, no hay un lanzamiento de cambio de paradigma en desarrollo.
 > > Paradigm shifting releases are separated by many years and represent fundamental shifts in the framework's architecture and conventions. Currently, there is no paradigm shifting release under development.
 
 <a name="support-policy"></a>
@@ -95,7 +95,7 @@ Laravel 5.7 ofrece integración con el comando `dump-server` de Symfony a travé
 
     php artisan dump-server
 
-Una vez que el servidor haya comenzado, todas las llamadas a `volcar` se mostrarán en la ventana de la consola `dump-server` en lugar de en su navegador, lo que le permitirá inspeccionar los valores sin modificar la salida de respuesta HTTP.
+Una vez que el servidor haya comenzado, todas las llamadas a `dump` se mostrarán en la ventana de la consola `dump-server` en lugar de en su navegador, lo que le permitirá inspeccionar los valores sin modificar la salida de respuesta HTTP.
 > > Once the server has started, all calls to `dump` will by displayed in the `dump-server` console window instead of in your browser, allowing you to inspect the values without mangling your HTTP response output.
 
 ### Localización de notificaciones : Notification Localization
