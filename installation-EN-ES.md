@@ -23,14 +23,14 @@ Sin embargo, si no está utilizando Homestead, deberá asegurarse de que su serv
 > > However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
 
 <div class="content-list" markdown="1">
-- PHP >= 7.1.3
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Mbstring PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
-- Ctype PHP Extension
-- JSON PHP Extension
+- PHP >= 7.1.3  
+- OpenSSL PHP Extension  
+- PDO PHP Extension  
+- Mbstring PHP Extension  
+- Tokenizer PHP Extension  
+- XML PHP Extension  
+- Ctype PHP Extension  
+- JSON PHP Extension  
 </div>
 
 <a name="installing-laravel"></a>
@@ -50,8 +50,8 @@ Asegúrese de ubicar el directorio bin del proveedor del sistema en su `$PATH` p
 > > Make sure to place composer's system-wide vendor bin directory in your `$PATH` so the laravel executable can be located by your system. This directory exists in different locations based on your operating system; however, some common locations include:
 
 <div class="content-list" markdown="1">
-- macOS: `$HOME/.composer/vendor/bin`
-- GNU / Linux Distributions: `$HOME/.config/composer/vendor/bin`
+- macOS: `$HOME/.composer/vendor/bin`  
+- GNU / Linux Distributions: `$HOME/.config/composer/vendor/bin`  
 </div>
 
 Una vez instalado, el comando `laravel new` creará una nueva instalación de Laravel en el directorio que especifique. Por ejemplo, `laravel new blog` creará un directorio llamado `blog` que contiene una nueva instalación de Laravel con todas las dependencias de Laravel ya instaladas:
@@ -68,7 +68,7 @@ Alternativamente, también puede instalar Laravel con el comando Composer `creat
 
 #### Servidor de desarrollo local : Local Development Server
 
-Si tiene PHP instalado localmente y desea usar el servidor de desarrollo incorporado de PHP para servir su aplicación, puede usar el comando `serve` Artisan. Este comando iniciará un servidor de desarrollo en `http://localhost:8000`:
+Si tiene PHP instalado localmente y desea usar el servidor de desarrollo incorporado de PHP para servir su aplicación, puede usar el comando Artisan `serve`. Este comando iniciará un servidor de desarrollo en `http://localhost:8000`:
 > > If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the `serve` Artisan command. This command will start a development server at `http://localhost:8000`:
 
     php artisan serve
