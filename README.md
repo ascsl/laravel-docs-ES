@@ -22,93 +22,93 @@ https://github.com/laravel/docs/tree/5.7
 
 ## Índice del contenido:
 
-Prologue
-> [Release Notes](/releases-EN-ES.md)  
-> [Upgrade Guide](/upgrade-EN-ES.md)  
-> [Contribution Guide](/contributions-EN-ES.md)  
-> [API Documentation](/5.7-EN-ES.md)  
+Prólogo
+> [Notas de la versión](/releases-EN-ES.md)  
+> [Guía de actualización](/upgrade-EN-ES.md)  
+> [Guía de contribución](/contributions-EN-ES.md)  
+> [Documentación API](/5.7-EN-ES.md)  
 
-Getting Started
-> [Installation](/installation-EN-ES.md)  
-> [Configuration](/configuration-EN-ES.md)  
-> [Directory Structure](/structure-EN-ES.md)  
+Primeros pasos
+> [Instalación](/installation-EN-ES.md)  
+> [Configuración](/configuration-EN-ES.md)  
+> [Estructura de directorios](/structure-EN-ES.md)  
 > [Homestead](/homestead-EN-ES.md)  
 > [Valet](/valet-EN-ES.md)  
-> [Deployment](/deployment-EN-ES.md)
+> [Despliegue](/deployment-EN-ES.md)
 
-Architecture Concepts
-> [Request Lifecycle](/lifecycle-EN-ES.md)  
-> [Service Container](/container-EN-ES.md)  
-> [Service Providers](/providers-EN-ES.md)  
-> [Facades](/facades-EN-ES.md)  
-> [Contracts](/contracts-EN-ES.md)  
+Conceptos de arquitectura
+> [Ciclo de vida de la solicitud](/lifecycle-EN-ES.md)  
+> [Contenedor de servicios](/container-EN-ES.md)  
+> [Proveedores de servicios](/providers-EN-ES.md)  
+> [Fachadas](/facades-EN-ES.md)  
+> [Contratos](/contracts-EN-ES.md)  
 
-The Basics
-> [Routing](/routing-EN-ES.md)  
+Lo básico
+> [Rutas](/routing-EN-ES.md)  
 > [Middleware](/middleware-EN-ES.md)  
-> [CSRF Protection](/csrf-EN-ES.md)  
-> [Controllers](/controllers-EN-ES.md)  
-> [Requests](/request-EN-ES.md)  
-> [Responses](/responses-EN-ES.md)  
-> [Views](/views-EN-ES.md)  
-> [URL Generation](/urls-EN-ES.md)  
-> [Session](/session-EN-ES.md)  
-> [Validation](/validation-EN-ES.md)  
-> [Error Handling](/errors-EN-ES.md)  
+> [Protección CSRF](/csrf-EN-ES.md)  
+> [Controladores](/controllers-EN-ES.md)  
+> [Solicitudes](/request-EN-ES.md)  
+> [Respuestas](/responses-EN-ES.md)  
+> [Vistas](/views-EN-ES.md)  
+> [Generación de URL](/urls-EN-ES.md)  
+> [Sesión](/session-EN-ES.md)  
+> [Validación](/validation-EN-ES.md)  
+> [Manejo de errores](/errors-EN-ES.md)  
 > [Logging](/logging-EN-ES.md)  
 
 Frontend
-> [Blade Templates](/blade-EN-ES.md)  
-> [Localization](/localization-EN-ES.md)  
+> [Plantillas Blade](/blade-EN-ES.md)  
+> [Localización](/localization-EN-ES.md)  
 > [Frontend Scaffolding](/frontend-EN-ES.md)  
-> [Compiling Assets](/mix-EN-ES.md)  
+> [Compilando Assets](/mix-EN-ES.md)  
 
-Security
-> [Authentication](/authentication-EN-ES.md)  
-> [API Authentication](/passport-EN-ES.md)  
-> [Authorization](/authorization-EN-ES.md)  
-> [Email Verification](/verification-EN-ES.md)  
-> [Encryption](/encryption-EN-ES.md)  
+Securidad
+> [Autenticación](/authentication-EN-ES.md)  
+> [API de autenticación](/passport-EN-ES.md)  
+> [Autorización](/authorization-EN-ES.md)  
+> [Versificación de Email](/verification-EN-ES.md)  
+> [Encriptación](/encryption-EN-ES.md)  
 > [Hashing](/hashing-EN-ES.md)  
-> [Password Reset](/passwords-EN-ES.md)  
+> [Restablecer Password](/passwords-EN-ES.md)  
 
-Digging Deeper
-> [Artisan Console](/artisan-EN-ES.md)  
-> [Broadcasting](/broadcasting-EN-ES.md)  
+Profundizando
+> [Consola Artisan](/artisan-EN-ES.md)  
+> [Difusión](/broadcasting-EN-ES.md)  
 > [Cache](/cache-EN-ES.md)  
-> [Collections](/collections-EN-ES.md)  
-> [Events](/events-EN-ES.md)  
-> [File Storage](/filesystem-EN-ES.md)  
+> [Colecciones](/collections-EN-ES.md)  
+> [Eventos](/events-EN-ES.md)  
+> [Almacenamiento de ficheros](/filesystem-EN-ES.md)  
 > [Helpers](/helpers-EN-ES.md)  
-> [Mail](/mail-EN-ES.md)  
-> [Notifications](/notifications-EN-ES.md)  
-> [Package Development](/packages-EN-ES.md)  
-> [Queues](/queues-EN-ES.md)  
-> [Task Scheduling](/scheduling-EN-ES.md)  
+> [Correo](/mail-EN-ES.md)  
+> [Notificaciones](/notifications-EN-ES.md)  
+> [Desarrollo de paquetes](/packages-EN-ES.md)  
+> [Colas](/queues-EN-ES.md)  
+> [Programación de tareas](/scheduling-EN-ES.md)  
 
-Database
-> [Getting Started](/database-EN-ES.md)  
+Base de datos
+> [Primeros pasos](/database-EN-ES.md)  
 > [Query Builder](/queries-EN-ES.md)  
-> [Pagination](/pagination-EN-ES.md)  
-> [Migrations](/migrations-EN-ES.md)  
-> [Seeding](/seeding-EN-ES.md)  
+> [Paginación](/pagination-EN-ES.md)  
+> [Migraciones](/migrations-EN-ES.md)  
+> [Semillas](/seeding-EN-ES.md)  
 > [Redis](/redis-EN-ES.md)  
 
-Eloquent ORM
-> [Getting Started](/eloquent-EN-ES.md)  
-> [Relationships](/eloquent-relationships-EN-ES.md)  
-> [Collections](/eloquent-collections-EN-ES.md)  
-> [Mutators](/eloquent-mutators-EN-ES.md)  
-> [API Resources](/eloquent-resources-EN-ES.md)  
-> [Serialization](/eloquent-serialization-EN-ES.md)
+ORM Eloquent
+> [Primeros pasos](/eloquent-EN-ES.md)  
+> [Relaciones](/eloquent-relationships-EN-ES.md)  
+> [Colecciones](/eloquent-collections-EN-ES.md)  
+> [Mutadores](/eloquent-mutators-EN-ES.md)  
+> [Recursos API](/eloquent-resources-EN-ES.md)  
+> [Serialización](/eloquent-serialization-EN-ES.md)
 
-Testing
-> [Getting Started](/testing-EN-ES.md)  
-> [HTTP Tests](/http-tests-EN-ES.md)  
-> [Console Tests](/console-EN-ES.md)  
-> [Browser Tests](/dusk-EN-ES.md)  
-> [Database](/database-testing-EN-ES.md)  
-> [Mocking](/mocking-EN-ES.md)  
+Pruebas
+> [Primeros pasos](/testing-EN-ES.md)  
+> [Pruebas HTTP](/http-tests-EN-ES.md)  
+> [Pruebas de consola](/console-EN-ES.md)  
+> [Pruebas de navegador](/dusk-EN-ES.md)  
+> [Base de datos](/database-testing-EN-ES.md)  
+> [Simulaciones](/mocking-EN-ES.md)  
 
 Official Packages
 > [Cashier](/billing-EN-ES.md)  
