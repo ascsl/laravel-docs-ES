@@ -12,7 +12,7 @@
 <a name="introduction"></a>
 ## Introducción : Introduction
 
-Todos los archivos de configuración para el marco de Laravel se almacenan en el directorio `config`. Cada opción está documentada, así que no dude en consultar los archivos y familiarizarse con las opciones disponibles para usted.
+Todos los archivos de configuración para el framework de Laravel se almacenan en el directorio `config`. Cada opción está documentada, así que no dude en consultar los archivos y familiarizarse con las opciones disponibles para usted.
 > > All of the configuration files for the Laravel framework are stored in the `config` directory. Each option is documented, so feel free to look through the files and get familiar with the options available to you.
 
 <a name="environment-configuration"></a>
