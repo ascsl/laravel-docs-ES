@@ -105,7 +105,7 @@ ORM Eloquent
 Pruebas
 > [Primeros pasos](/testing-EN-ES.md)  
 > [Pruebas HTTP](/http-tests-EN-ES.md)  
-> [Pruebas de consola](/console-EN-ES.md)  
+> [Pruebas de consola](/console-tests-EN-ES.md)  
 > [Pruebas de navegador](/dusk-EN-ES.md)  
 > [Base de datos](/database-testing-EN-ES.md)  
 > [Simulaciones](/mocking-EN-ES.md)  
