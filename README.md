@@ -26,7 +26,7 @@ Prólogo
 > [Notas de la versión](/releases-EN-ES.md)  
 > [Guía de actualización](/upgrade-EN-ES.md)  
 > [Guía de contribución](/contributions-EN-ES.md)  
-> [Documentación API](/5.7-EN-ES.md)  
+> [Documentación API]  
 
 Primeros pasos
 > [Instalación](/installation-EN-ES.md)  
