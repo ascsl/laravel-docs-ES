@@ -1,4 +1,4 @@
-# Solicitar ciclo de vida : Request Lifecycle
+# Ciclo de vida de la solicitud: Request Lifecycle
 
 - [Introduction](#introduction)
 - [Lifecycle Overview](#lifecycle-overview)
