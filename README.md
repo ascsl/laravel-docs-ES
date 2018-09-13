@@ -26,7 +26,7 @@ Prólogo
 > [Notas de la versión](/releases-EN-ES.md)  
 > [Guía de actualización](/upgrade-EN-ES.md)  
 > [Guía de contribución](/contributions-EN-ES.md)  
-> Documentación API  
+> [Documentación API](https://laravel.com/api/5.7/)  
 
 Primeros pasos
 > [Instalación](/installation-EN-ES.md)  
