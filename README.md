@@ -14,9 +14,7 @@ Los ejemplos se han dejado tal cual están en la documentación original, ya que
 
 Las palabras que hacen referencia a variables, metodos, propiedades, etc, tampoco se han traducido para mantener el literal con el que han de ser llamadas correctamente.
 
-Esta documentación esta incompleta, y se irá completando durante las próximas semanas.
-
-Durante este periodo es posible que los documentos originales puedan haber sido modificados. Tratare de mantenerlos actualizados, pero no olvideis que la mejor documentación siempre es la oficial:
+Los documentos originales usados para la traducción se descargaron a fecha 19-ago-2018. Durante este periodo es posible que los documentos originales puedan haber sido modificados. Tratare de mantenerlos actualizados, pero no olvideis que la mejor documentación siempre es la oficial:
 
 https://github.com/laravel/docs/tree/5.7
 
