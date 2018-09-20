@@ -1,22 +1,22 @@
 # Consola Artisan : Artisan Console
 
 - [Introducción](#introduction) : Introduction
-- [Writing Commands](#writing-commands)
-    - [Generating Commands](#generating-commands)
-    - [Command Structure](#command-structure)
-    - [Closure Commands](#closure-commands)
-- [Defining Input Expectations](#defining-input-expectations)
-    - [Arguments](#arguments)
-    - [Options](#options)
-    - [Input Arrays](#input-arrays)
-    - [Input Descriptions](#input-descriptions)
-- [Command I/O](#command-io)
-    - [Retrieving Input](#retrieving-input)
-    - [Prompting For Input](#prompting-for-input)
-    - [Writing Output](#writing-output)
-- [Registering Commands](#registering-commands)
-- [Programmatically Executing Commands](#programmatically-executing-commands)
-    - [Calling Commands From Other Commands](#calling-commands-from-other-commands)
+- [Escribiendo comandos](#writing-commands) : Writing Commands
+    - [Generación de comandos](#generating-commands) : Generating Commands
+    - [Estructura de comandos](#command-structure) : Command Structure
+    - [Comandos Closure](#closure-commands) : Closure Commands
+- [Definiendo las expectativas de entrada](#defining-input-expectations) : Defining Input Expectations
+    - [Argumentos](#arguments) : Arguments
+    - [Opciones](#options) : Options
+    - [Arrays de entrada](#input-arrays) : Input Arrays
+    - [Input Descriptions](#input-descriptions) : Input Descriptions
+- [Comando I/O](#command-io) : Command I/O
+    - [Recuperación de entrada](#retrieving-input) : Retrieving Input
+    - [Solicitud de entrada](#prompting-for-input) : Prompting For Input
+    - [Escritura de salida](#writing-output) : Writing Output
+- [Registrando comandos](#registering-commands) : Registering Commands
+- [Ejecución programática de comandos](#programmatically-executing-commands) : Programmatically Executing Commands
+    - [Llamando comandos desde otros comandos](#calling-commands-from-other-commands) : Calling Commands From Other Commands
 
 <a name="introduction"></a>
 ## Introducción : Introduction
@@ -120,9 +120,9 @@ Echemos un vistazo a un comando de ejemplo. Tenga en cuenta que podemos insertar
     }
 
 <a name="closure-commands"></a>
-### Comandos de cierre : Closure Commands
+### Comandos Closure : Closure Commands
 
-Los comandos basados ​​en cierre proporcionan una alternativa para definir comandos de consola como clases. De la misma manera que los Closures de ruta son una alternativa a los controladores, piense en los cierres de comandos como una alternativa a las clases de comando. Dentro del método `commands` del archivo `app/Console/Kernel.php`, Laravel carga el archivo `routes/console.php`:
+Los comandos basados en Cierre o Closure proporcionan una alternativa para definir comandos de consola como clases. De la misma manera que los Closures de ruta son una alternativa a los controladores, piense en los comandos Closure como una alternativa a las clases de comando. Dentro del método `commands` del archivo `app/Console/Kernel.php`, Laravel carga el archivo `routes/console.php`:
 > > Closure based commands provide an alternative to defining console commands as classes. In the same way that route Closures are an alternative to controllers, think of command Closures as an alternative to command classes. Within the `commands` method of your `app/Console/Kernel.php` file, Laravel loads the `routes/console.php` file:  
 
     /**
@@ -135,19 +135,19 @@ Los comandos basados ​​en cierre proporcionan una alternativa para definir c
         require base_path('routes/console.php');
     }
 
-Aunque este archivo no define rutas HTTP, define los puntos de entrada (rutas) basados ​​en la consola en su aplicación. Dentro de este archivo, puede definir todas sus rutas basadas en Closure utilizando el método `Artisan::command`. El método `command` acepta dos argumentos: el [command signature] (# definition-input-expectations) y un Closure que recibe los comandos argumentos y opciones:
+Aunque este archivo no define rutas HTTP, define los puntos de entrada (rutas) basados ​​en la consola en su aplicación. Dentro de este archivo, puede definir todas sus rutas basadas en Closure utilizando el método `Artisan::command`. El método `command` acepta dos argumentos: el [command signature](#definition-input-expectations) y un Closure que recibe los argumentos y opciones de comandos:
 > > Even though this file does not define HTTP routes, it defines console based entry points (routes) into your application. Within this file, you may define all of your Closure based routes using the `Artisan::command` method. The `command` method accepts two arguments: the [command signature](#defining-input-expectations) and a Closure which receives the commands arguments and options:  
 
     Artisan::command('build {project}', function ($project) {
         $this->info("Building {$project}!");
     });
 
-The Closure está vinculado a la instancia de comando subyacente, por lo que tiene acceso completo a todos los métodos de ayuda a los que normalmente podría acceder en una clase de comando completa.
+El Closure está vinculado a la instancia de comando subyacente, por lo que tiene acceso completo a todos los métodos de ayuda a los que normalmente podría acceder en una clase de comando completa.
 > > The Closure is bound to the underlying command instance, so you have full access to all of the helper methods you would typically be able to access on a full command class.  
 
-#### Dependencias tipo Hinting (sugerencias) : Type-Hinting Dependencies
+#### Indicando dependencias : Type-Hinting Dependencies
 
-Además de recibir los argumentos y las opciones de su comando, los cierres de comandos también pueden escribir-indicar las dependencias adicionales que le gustaría resolver del [contenedor de servicios] (/docs/{{version}}/container):
+Además de recibir los argumentos y las opciones de su comando, los Closures de comandos también pueden indicar las dependencias adicionales que le gustaría resolver del [contenedor de servicios](/docs/{{version}}/container):
 > > In addition to receiving your command's arguments and options, command Closures may also type-hint additional dependencies that you would like resolved out of the [service container](/docs/{{version}}/container):  
 
     use App\User;
@@ -157,7 +157,7 @@ Además de recibir los argumentos y las opciones de su comando, los cierres de c
         $drip->send(User::find($user));
     });
 
-#### Descripciones de los comandos de cierre : Closure Command Descriptions
+#### Descripciones de los comandos Closure : Closure Command Descriptions
 
 Al definir un comando basado en Closure, puede usar el método `describe` para agregar una descripción al comando. Esta descripción se mostrará cuando ejecute los comandos `php artisan list` o `php artisan help`:
 > > When defining a Closure based command, you may use the `describe` method to add a description to the command. This description will be displayed when you run the `php artisan list` or `php artisan help` commands:  
@@ -496,7 +496,7 @@ Si necesita especificar el valor de una opción que no acepta valores de cadena,
     ]);
 
 <a name="calling-commands-from-other-commands"></a>
-### Comandos de llamada de otros comandos : Calling Commands From Other Commands
+### Llamando comandos desde otros comandos : Calling Commands From Other Commands
 
 En ocasiones, es posible que desee llamar a otros comandos desde un comando Artisan existente. Puede hacerlo usando el método `call`. Este método `call` acepta el nombre del comando y un array de parámetros de comando:
 > > Sometimes you may wish to call other commands from an existing Artisan command. You may do so using the `call` method. This `call` method accepts the command name and an array of command parameters:
