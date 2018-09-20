@@ -1,23 +1,23 @@
 # Autorización : Authorization
 
-- [Introduction](#introduction)
-- [Gates](#gates)
-    - [Writing Gates](#writing-gates)
-    - [Authorizing Actions](#authorizing-actions-via-gates)
-    - [Intercepting Gate Checks](#intercepting-gate-checks)
-- [Creating Policies](#creating-policies)
-    - [Generating Policies](#generating-policies)
-    - [Registering Policies](#registering-policies)
-- [Writing Policies](#writing-policies)
-    - [Policy Methods](#policy-methods)
-    - [Methods Without Models](#methods-without-models)
-    - [Guest Users](#guest-users)
-    - [Policy Filters](#policy-filters)
-- [Authorizing Actions Using Policies](#authorizing-actions-using-policies)
-    - [Via The User Model](#via-the-user-model)
-    - [Via Middleware](#via-middleware)
-    - [Via Controller Helpers](#via-controller-helpers)
-    - [Via Blade Templates](#via-blade-templates)
+- [Introducción](#introduction) : Introduction
+- [Puertas](#gates) : Gates
+    - [Escribiendo puertas](#writing-gates) : Writing Gates
+    - [Autorizando acciones](#authorizing-actions-via-gates) : Authorizing Actions
+    - [Interceptación de controles de puerta](#intercepting-gate-checks) : Intercepting Gate Checks
+- [Creando políticas](#creating-policies) : Creating Policies
+    - [Generando políticas](#generating-policies) : Generating Policies
+    - [Políticas de registro](#registering-policies) : Registering Policies
+- [Escribiendo políticas](#writing-policies) : Writing Policies
+    - [Métodos de política](#policy-methods) : Policy Methods
+    - [Métodos sin modelos](#methods-without-models) : Methods Without Models
+    - [Usuarios invitados](#guest-users) : Guest Users
+    - [Filtros de política](#policy-filters) : Policy Filters
+- [Autorización de acciones usando políticas](#authorizing-actions-using-policies) : Authorizing Actions Using Policies
+    - [Através del modelo User](#via-the-user-model) : Via The User Model
+    - [A trqvés de Middleware](#via-middleware) : Via Middleware
+    - [Via Controller Helpers](#via-controller-helpers) : Via Controller Helpers
+    - [A través de plantillas Blade](#via-blade-templates) : Via Blade Templates
 
 <a name="introduction"></a>
 ## Introducción : Introduction
@@ -311,7 +311,7 @@ Si desea denegar todas las autorizaciones para un usuario, debe devolver `false`
 ## Autorización de acciones usando políticas : Authorizing Actions Using Policies
 
 <a name="via-the-user-model"></a>
-### A través del modelo de usuario : Via The User Model
+### A través del modelo User : Via The User Model
 
 El modelo `User` que se incluye con su aplicación Laravel incluye dos métodos útiles para autorizar acciones: `can` y `cant`. El método `can` recibe la acción que desea autorizar y el modelo relevante. Por ejemplo, determinemos si un usuario está autorizado a actualizar un modelo de `Post` dado:
 > > The `User` model that is included with your Laravel application includes two helpful methods for authorizing actions: `can` and `cant`. The `can` method receives the action you wish to authorize and the relevant model. For example, let's determine if a user is authorized to update a given `Post` model:
@@ -410,7 +410,7 @@ Como se discutió anteriormente, algunas acciones como `create` pueden no requer
     }
 
 <a name="via-blade-templates"></a>
-### Plantillas de Via Blade : Via Blade Templates
+### Através de plantillas Blade : Via Blade Templates
 
 Al escribir plantillas Blade, es posible que desee mostrar una parte de la página solo si el usuario está autorizado para realizar una acción determinada. Por ejemplo, es posible que desee mostrar un formulario de actualización para una publicación de blog solo si el usuario puede actualizar la publicación. En esta situación, puede usar la familia de directivas `@can` y `@cannot`:
 > > When writing Blade templates, you may wish to display a portion of the page only if the user is authorized to perform a given action. For example, you may wish to show an update form for a blog post only if the user can actually update the post. In this situation, you may use the `@can` and `@cannot` family of directives:
