@@ -9,14 +9,14 @@
     - [Recuperando el usuario autenticado](#retrieving-the-authenticated-user) : Retrieving The Authenticated User
     - [Protección de rutas](#protecting-routes) : Protecting Routes
     - [Regulación de inicio de sesión](#login-throttling) : Login Throttling
-- [Manually Authenticating Users](#authenticating-users) : Manually Authenticating Users
-    - [Remembering Users](#remembering-users) : Remembering Users
+- [Autenticación manual de usuarios](#authenticating-users) : Manually Authenticating Users
+    - [Recordar usuarios](#remembering-users) : Remembering Users
     - [Otros métodos de autenticación](#other-authentication-methods) : Other Authentication Methods
 - [Autenticación básica HTTP](#http-basic-authentication) : HTTP Basic Authentication
     - [Autenticación básica HTTP sin estado](#stateless-http-basic-authentication) : Stateless HTTP Basic Authentication
 - [Saliendo de tu cuenta](#logging-out) : Logging Out
     - [Invalidar sesiones en otros dispositivos](#invalidating-sessions-on-other-devices) : Invalidating Sessions On Other Devices
-- [Social Authentication](https://github.com/laravel/socialite) : Social Authentication
+- [Autenticacion con redes sociales](https://github.com/laravel/socialite) : Social Authentication
 - [Agregar guardias personalizados](#adding-custom-guards) : Adding Custom Guards
     - [Guardias de solicitud de cierre](#closure-request-guards) : Closure Request Guards
 - [Agregar proveedores de usuario personalizados](#adding-custom-user-providers) : Adding Custom User Providers
