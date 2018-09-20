@@ -1,6 +1,6 @@
 # Consola Artisan : Artisan Console
 
-- [Introduction](#introduction)
+- [Introducción](#introduction) : Introduction
 - [Writing Commands](#writing-commands)
     - [Generating Commands](#generating-commands)
     - [Command Structure](#command-structure)
