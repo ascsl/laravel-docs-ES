@@ -9,7 +9,7 @@
     - [Argumentos](#arguments) : Arguments
     - [Opciones](#options) : Options
     - [Arrays de entrada](#input-arrays) : Input Arrays
-    - [Input Descriptions](#input-descriptions) : Input Descriptions
+    - [Descripciones de entrada](#input-descriptions) : Input Descriptions
 - [Comando I/O](#command-io) : Command I/O
     - [Recuperación de entrada](#retrieving-input) : Retrieving Input
     - [Solicitud de entrada](#prompting-for-input) : Prompting For Input
