@@ -1,28 +1,28 @@
 # Autenticación : Authentication
 
-- [Introduction](#introduction)
-    - [Database Considerations](#introduction-database-considerations)
-- [Authentication Quickstart](#authentication-quickstart)
-    - [Routing](#included-routing)
-    - [Views](#included-views)
-    - [Authenticating](#included-authenticating)
-    - [Retrieving The Authenticated User](#retrieving-the-authenticated-user)
-    - [Protecting Routes](#protecting-routes)
-    - [Login Throttling](#login-throttling)
-- [Manually Authenticating Users](#authenticating-users)
-    - [Remembering Users](#remembering-users)
-    - [Other Authentication Methods](#other-authentication-methods)
-- [HTTP Basic Authentication](#http-basic-authentication)
-    - [Stateless HTTP Basic Authentication](#stateless-http-basic-authentication)
-- [Logging Out](#logging-out)
-    - [Invalidating Sessions On Other Devices](#invalidating-sessions-on-other-devices)
-- [Social Authentication](https://github.com/laravel/socialite)
-- [Adding Custom Guards](#adding-custom-guards)
-    - [Closure Request Guards](#closure-request-guards)
-- [Adding Custom User Providers](#adding-custom-user-providers)
-    - [The User Provider Contract](#the-user-provider-contract)
-    - [The Authenticatable Contract](#the-authenticatable-contract)
-- [Events](#events)
+- [Introducción](#introduction) : Introduction
+    - [Consideraciones de la base de datos](#introduction-database-considerations) : Database Considerations
+- [Autenticación Inicio rápido](#authentication-quickstart) : Authentication Quickstart
+    - [Enrutamiento](#included-routing) : Routing
+    - [Vistas](#included-views) : Views
+    - [Autenticación](#included-authenticating) : Authenticating
+    - [Recuperando el usuario autenticado](#retrieving-the-authenticated-user) : Retrieving The Authenticated User
+    - [Protección de rutas](#protecting-routes) : Protecting Routes
+    - [Regulación de inicio de sesión](#login-throttling) : Login Throttling
+- [Manually Authenticating Users](#authenticating-users) : Manually Authenticating Users
+    - [Remembering Users](#remembering-users) : Remembering Users
+    - [Otros métodos de autenticación](#other-authentication-methods) : Other Authentication Methods
+- [Autenticación básica HTTP](#http-basic-authentication) : HTTP Basic Authentication
+    - [Autenticación básica HTTP sin estado](#stateless-http-basic-authentication) : Stateless HTTP Basic Authentication
+- [Saliendo de tu cuenta](#logging-out) : Logging Out
+    - [Invalidar sesiones en otros dispositivos](#invalidating-sessions-on-other-devices) : Invalidating Sessions On Other Devices
+- [Social Authentication](https://github.com/laravel/socialite) : Social Authentication
+- [Agregar guardias personalizados](#adding-custom-guards) : Adding Custom Guards
+    - [Guardias de solicitud de cierre](#closure-request-guards) : Closure Request Guards
+- [Agregar proveedores de usuario personalizados](#adding-custom-user-providers) : Adding Custom User Providers
+    - [El contrato de proveedor de usuario](#the-user-provider-contract) : The User Provider Contract
+    - [El contrato Authenticatable](#the-authenticatable-contract) : The Authenticatable Contract
+- [Eventos](#events) : Events
 
 <a name="introduction"></a>
 ## Introducción : Introduction
@@ -140,7 +140,7 @@ El método `create` de` RegisterController` es responsable de crear nuevos regis
 > > The `create` method of the `RegisterController` is responsible for creating new `App\User` records in your database using the [Eloquent ORM](/docs/{{version}}/eloquent). You are free to modify this method according to the needs of your database.
 
 <a name="retrieving-the-authenticated-user"></a>
-### Retrieving The Authenticated User : Recuperando el usuario autenticado
+### Recuperando el usuario autenticado : Retrieving The Authenticated User
 
 Puede acceder al usuario autenticado a través de la fachada `Auth`:
 > > You may access the authenticated user via the `Auth` facade:
