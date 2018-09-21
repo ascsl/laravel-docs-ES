@@ -5,7 +5,7 @@
     - [Instalación de Laravel](#installing-laravel) : Installing Laravel
     - [Configuración](#configuration) : Configuration
 - [Configuración del servidor web](#web-server-configuration) : Web Server Configuration
-    - [UELs amigables](#pretty-urls) : Pretty URLs
+    - [URLs amigables](#pretty-urls) : Pretty URLs
 
 <a name="installation"></a>
 ## Instalación : Installation
