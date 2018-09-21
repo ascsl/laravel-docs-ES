@@ -1,25 +1,25 @@
 # Plantillas Blade : Blade Templates
 
-- [Introduction](#introduction)
-- [Template Inheritance](#template-inheritance)
-    - [Defining A Layout](#defining-a-layout)
-    - [Extending A Layout](#extending-a-layout)
-- [Components & Slots](#components-and-slots)
-- [Displaying Data](#displaying-data)
-    - [Blade & JavaScript Frameworks](#blade-and-javascript-frameworks)
-- [Control Structures](#control-structures)
-    - [If Statements](#if-statements)
-    - [Switch Statements](#switch-statements)
-    - [Loops](#loops)
-    - [The Loop Variable](#the-loop-variable)
-    - [Comments](#comments)
-    - [PHP](#php)
-- [Including Sub-Views](#including-sub-views)
-    - [Rendering Views For Collections](#rendering-views-for-collections)
-- [Stacks](#stacks)
-- [Service Injection](#service-injection)
-- [Extending Blade](#extending-blade)
-    - [Custom If Statements](#custom-if-statements)
+- [Introducción](#introduction) : Introduction
+- [Herencia de plantilla](#template-inheritance) : Template Inheritance
+    - [Definición de un diseño](#defining-a-layout) : Defining A Layout
+    - [Extendiendo un diseño](#extending-a-layout) : Extending A Layout
+- [Componentes y ranuras](#components-and-slots) : Components & Slots
+- [Visualización de datos](#displaying-data) : Displaying Data
+    - [Blade y frameworks Javascript](#blade-and-javascript-frameworks) : Blade & JavaScript Frameworks
+- [Estructuras de control](#control-structures) : Control Structures
+    - [Sentencias If](#if-statements) : If Statements
+    - [Sentencias Switch](#switch-statements) : Switch Statements
+    - [Bucles](#loops) : Loops
+    - [La variable Loop](#the-loop-variable) : The Loop Variable
+    - [Comentarios](#comments) : Comments
+    - [PHP](#php) : PHP
+- [Incluyendo Sub-Vistas](#including-sub-views) : Including Sub-Views
+    - [Representación de vistas para colecciones](#rendering-views-for-collections) : Rendering Views For Collections
+- [Pilas](#stacks) : Stacks
+- [Inyección de servicio](#service-injection) : Service Injection
+- [Extendiendo Blade](#extending-blade) : Extending Blade
+    - [Sentencias If personalizadas](#custom-if-statements) : Custom If Statements
 
 <a name="introduction"></a>
 ## Introducción : Introduction
@@ -341,7 +341,7 @@ Puede verificar si una sección tiene contenido usando la directiva `@hasSection
     @endif
 
 <a name="switch-statements"></a>
-### Sentencias de cambio : Switch Statements
+### Sentencias Switch : Switch Statements
 
 Las sentencias Switch se pueden construir utilizando las directivas `@switch`, `@case`, `@break`, `@default` y `@endswitch`:
 > > Switch statements can be constructed using the `@switch`, `@case`, `@break`, `@default` and `@endswitch` directives:
@@ -413,7 +413,7 @@ También puede incluir la condición con la declaración de directiva en una lí
     @endforeach
 
 <a name="the-loop-variable"></a>
-### La variable de bucle : The Loop Variable
+### La variable Loop : The Loop Variable
 
 Al realizar un bucle, una variable `$loop` estará disponible dentro de su bucle. Esta variable proporciona acceso a algunos bits de información útiles, como el índice de ciclo actual y si esta es la primera o la última iteración a través del ciclo:
 > > When looping, a `$loop` variable will be available inside of your loop. This variable provides access to some useful bits of information such as the current loop index and whether this is the first or last iteration through the loop:
@@ -625,7 +625,7 @@ Como puede ver, encadenaremos el método `format` en cualquier expresión que pa
 > > > {note} After updating the logic of a Blade directive, you will need to delete all of the cached Blade views. The cached Blade views may be removed using the `view:clear` Artisan command.
 
 <a name="custom-if-statements"></a>
-### Personalizado de sentencias If : Custom If Statements
+### Sentencias If personalizadas: Custom If Statements
 
 La programación de una directiva personalizada a veces es más compleja de lo necesario al definir enunciados condicionales simples y personalizados. Por esa razón, Blade proporciona un método `Blade::if` que le permite definir rápidamente directivas condicionales personalizadas utilizando Closures. Por ejemplo, definamos un condicional personalizado que verifique el entorno de la aplicación actual. Podemos hacer esto en el método `boot` de nuestro `AppServiceProvider`:
 > > Programming a custom directive is sometimes more complex than necessary when defining simple, custom conditional statements. For that reason, Blade provides a `Blade::if` method which allows you to quickly define custom conditional directives using Closures. For example, let's define a custom conditional that checks the current application environment. We may do this in the `boot` method of our `AppServiceProvider`:
