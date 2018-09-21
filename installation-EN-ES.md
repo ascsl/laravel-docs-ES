@@ -1,11 +1,11 @@
 # Instalación : Installation
 
-- [Installation](#installation)
-    - [Server Requirements](#server-requirements)
-    - [Installing Laravel](#installing-laravel)
-    - [Configuration](#configuration)
-- [Web Server Configuration](#web-server-configuration)
-    - [Pretty URLs](#pretty-urls)
+- [Instalación](#installation) : Installation
+    - [Requisitos del servidor](#server-requirements) : Server Requirements
+    - [Instalación de Laravel](#installing-laravel) : Installing Laravel
+    - [Configuración](#configuration) : Configuration
+- [Configuración del servidor web](#web-server-configuration) : Web Server Configuration
+    - [UELs amigables](#pretty-urls) : Pretty URLs
 
 <a name="installation"></a>
 ## Instalación : Installation
