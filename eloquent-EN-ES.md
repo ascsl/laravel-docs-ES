@@ -1,27 +1,27 @@
 # Eloquent: Primeros pasos : Eloquent: Getting Started
 
-- [Introduction](#introduction)
-- [Defining Models](#defining-models)
-    - [Eloquent Model Conventions](#eloquent-model-conventions)
-- [Retrieving Models](#retrieving-models)
-    - [Collections](#collections)
-    - [Chunking Results](#chunking-results)
-- [Retrieving Single Models / Aggregates](#retrieving-single-models)
-    - [Retrieving Aggregates](#retrieving-aggregates)
-- [Inserting & Updating Models](#inserting-and-updating-models)
-    - [Inserts](#inserts)
-    - [Updates](#updates)
-    - [Mass Assignment](#mass-assignment)
-    - [Other Creation Methods](#other-creation-methods)
-- [Deleting Models](#deleting-models)
-    - [Soft Deleting](#soft-deleting)
-    - [Querying Soft Deleted Models](#querying-soft-deleted-models)
-- [Query Scopes](#query-scopes)
-    - [Global Scopes](#global-scopes)
-    - [Local Scopes](#local-scopes)
-- [Comparing Models](#comparing-models)
-- [Events](#events)
-    - [Observers](#observers)
+- [Introducción](#introduction) : Introduction
+- [Definición de modelos](#defining-models) : Defining Models
+    - [Convenciones del modelo Eloquent](#eloquent-model-conventions) : Eloquent Model Conventions
+- [Recuperando modelos](#retrieving-models) : Retrieving Models
+    - [Colecciones](#collections) : Collections
+    - [Fragmentando resultados](#chunking-results) : Chunking Results
+- [Recuperando modelos únicos / agregados](#retrieving-single-models) : Retrieving Single Models / Aggregates
+    - [Recuperando agregados](#retrieving-aggregates) : Retrieving Aggregates
+- [Inserción y actualización de modelos](#inserting-and-updating-models) : Inserting & Updating Models
+    - [Inserciones](#inserts) : Inserts
+    - [Actualizaciones](#updates) : Updates
+    - [Asignación masiva](#mass-assignment) : Mass Assignment
+    - [Otros métodos de creación](#other-creation-methods) : Other Creation Methods
+- [Eliminación de modelos](#deleting-models) : Deleting Models
+    - [Eliminación suave](#soft-deleting) : Soft Deleting
+    - [Consulta de modelos eliminados de software](#querying-soft-deleted-models) : Querying Soft Deleted Models
+- [Ámbito de consultas](#query-scopes) : Query Scopes
+    - [Ámbito global](#global-scopes) : Global Scopes
+    - [Ámbito local](#local-scopes) : Local Scopes
+- [Comparando modelos](#comparing-models) : Comparing Models
+- [Eventos](#events) : Events
+    - [Observadores](#observers) : Observers
 
 <a name="introduction"></a>
 ## Introducción : Introduction
@@ -215,7 +215,7 @@ Por supuesto, también puede recorrer la colección como un array:
     }
 
 <a name="chunking-results"></a>
-### Resultados de fragmentación : Chunking Results
+### Fragmentando resultados : Chunking Results
 
 Si necesita procesar miles de registros Eloquent, use el comando `chunk`. El método `chunk` recuperará un "trozo" de modelos Eloquent, alimentándolos a un `Closure` dado para su procesamiento. El uso del método `chunk` conservará la memoria cuando se trabaja con grandes conjuntos de resultados:
 > > If you need to process thousands of Eloquent records, use the `chunk` command. The `chunk` method will retrieve a "chunk" of Eloquent models, feeding them to a given `Closure` for processing. Using the `chunk` method will conserve memory when working with large result sets:
